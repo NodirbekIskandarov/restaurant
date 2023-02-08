@@ -1,0 +1,20 @@
+
+.korzinka {
+    float: right;
+    font-size: 50px;
+    width: 352px;
+    height: 102px;
+    background-color: #00AD30;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    border-radius: 15px;
+}
+.taomlar {
+    display: flex;
+}
+.taomlar p {
+    margin-right: 10px;
+}

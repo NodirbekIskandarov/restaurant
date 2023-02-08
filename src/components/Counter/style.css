@@ -1,0 +1,16 @@
+.counter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.counter button {
+    width: 64px;
+    height: 58px;
+    font-size: 37px;
+    border: none;
+    background-color: white;
+    box-shadow: 0 0 10px 5px gray;
+}
+.counter span {
+    font-size: 40px;
+}

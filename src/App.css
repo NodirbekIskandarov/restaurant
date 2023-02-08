@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+.left {
+  height: 100vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.first{
+  margin-top: -550px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.list{
+  margin-top: 200px;
+  list-style: none;
+  font-size: 25px;
   color: white;
+  margin-left: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.searchInput{
+  border-radius: 20px;
+  background-color: #EAF0FF;
+  padding: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.calendar{
+  border: 1px solid #CBDBFF;
+  background-color: #F9F9F9;
+  border-radius: 15px;
+  align-items: center;
+  padding: 7px 15px;
+  font-size: 14px;
+  margin-left: 15px;
+}
+.navbar_below{
+  margin-top: 55px;
+}
+.hammasi{
+  padding: 15px 12px;
+  border-radius: 22px;
+}
+.box{
+  width: 90%;
+  font-size: 50px;
+  font-weight: 600;
+  color: #325ECD;
+  border: 1px solid #CBDBFF;
+  border-radius: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.card{
+  border-radius: 20px;
+  width: 300px;
+}
+.head {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 10px;
+}
+.foot{
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.push{
+  margin-top: -550px;
+}
+.head2{
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  margin-bottom: -15px;
+}
+.main_box{
+  border: 1px solid #CBDBFF;
+  border-radius: 30px;
+  margin: auto;
+  width: 85%;
+  height: 550px;
+}
+.inpuT{
+  height: 200px;
+}
+.checks{
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 200px;
+}
+.users{
+  margin-top: -550px
 }

@@ -1,16 +1,14 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
+import { useSelector } from 'react-redux';
 import { Link, Outlet } from 'react-router-dom';
-import Korzinka from './components/Korzinka.js/Korzinka';
-import './components/Stol/style.css'
-function App() {
-  const [items, setItems] = useState([]);
+import './style.css'
 
-useEffect(() => {
-  const items = JSON.parse(localStorage.getItem('items'));
-  if (items) {
-   setItems(items);
-  }
-}, []);
+function Stol() {
+  const selector = useSelector(state=>state)
+
+
+  console.log(selector)
+
   return (
     <div>
       <div className='main'>
@@ -20,7 +18,7 @@ useEffect(() => {
               <div className='rasm'>
                 <img src="image_1.png" alt="" />
               </div>
-              <h1>{items}</h1>
+              <h1>{selector.count}</h1>
             </div>
 
             <div className="col-10 menu">
@@ -52,9 +50,8 @@ useEffect(() => {
       </div>
 
       <Outlet/>
-      <Link to="korzinka" className="korzinka" style={{textDecoration: "none"}}>Korzinka</Link>
     </div>
   )
 }
 
-export default App
+export default Stol

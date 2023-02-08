@@ -1,0 +1,62 @@
+.stol {
+    display: flex;
+    align-items: center;
+}
+.asosiy {
+    display: flex;
+    align-items: center; 
+}
+.rasm {
+    width: 141px;
+    box-shadow: 10px 10px 10px gray;
+    margin-right: 30px;
+}
+.rasm img {
+    width: 100%;
+}
+.menu .button {
+    display: flex;
+    height: 83px;
+    align-items: center;
+    border: none;
+    background-color: #D4A068;
+    padding: 10px 45px 10px 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+.img1 {
+    width: 73px;
+    margin-right: 25px;
+}
+.img2 {
+    width: 64px;
+    margin-right: 25px;
+}
+.menu .button h1 {
+    color: white;
+}
+.types {
+    display: flex;
+    justify-content: space-between;
+}
+.types .type {
+    width: 324px;
+}
+.main {
+    border-bottom: 1px solid #FFFFFF;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+}
+.korzinka {
+    float: right;
+    font-size: 50px;
+    width: 352px;
+    height: 102px;
+    background-color: #00AD30;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 70px;
+    border-radius: 15px;
+}

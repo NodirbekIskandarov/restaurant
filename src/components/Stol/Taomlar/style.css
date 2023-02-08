@@ -1,0 +1,19 @@
+
+.quti1 {
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+img {
+    width: 245px;
+    margin: 0 auto;
+}
+.quti2 {
+    width: 280px;
+    height: 280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px 5px gray;
+    margin-bottom: 10px;
+}

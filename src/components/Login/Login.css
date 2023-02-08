@@ -1,0 +1,13 @@
+.row1 {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px gray;
+}
+.row1 img {
+    width: 100%;
+    height: 250px;
+}

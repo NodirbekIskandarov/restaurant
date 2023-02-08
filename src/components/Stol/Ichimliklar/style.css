@@ -1,0 +1,38 @@
+
+.quti1 {
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+img {
+    width: 245px;
+    margin: 0 auto;
+}
+.quti2 {
+    width: 280px;
+    height: 280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px 5px gray;
+    margin-bottom: 10px;
+}
+.quti2 img {
+    height: 150px;
+}
+.counter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.counter button {
+    width: 64px;
+    height: 58px;
+    font-size: 37px;
+    border: none;
+    background-color: white;
+    box-shadow: 0 0 10px 5px gray;
+}
+.counter span {
+    font-size: 40px;
+}
