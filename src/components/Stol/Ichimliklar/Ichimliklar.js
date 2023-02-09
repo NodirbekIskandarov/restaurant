@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Counter from "../../Counter/Counter";
 import "./style.css";
 function Ichimliklar() {
-  let savat = []
+  let savat = [];
   let data = [
     {
       name: "Coca Cola",
@@ -39,16 +39,16 @@ function Ichimliklar() {
     setDataBase([...currentData]);
   }
   dataBase.forEach((item, index) => {
-    if(item.count > 0){
+    if (item.count > 0) {
       savat.push({
         name: item.name,
-        count: item.count
-      })
+        count: item.count,
+      });
     }
-  })
-  console.log(savat)
+  });
+  console.log(savat);
   useEffect(() => {
-    localStorage.setItem('data1', JSON.stringify(savat));
+    localStorage.setItem("data1", JSON.stringify(savat));
   }, [savat]);
   return (
     <div>
@@ -67,7 +67,7 @@ function Ichimliklar() {
                     increment: increment,
                     count: item.count,
                     index: index,
-                    name: item.name
+                    name: item.name,
                   }}
                 />
               </div>

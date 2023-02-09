@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import Counter from "../../Counter/Counter";
 import "./style.css";
 function Taomlar() {
-  console.log(useLocation)
-  let savat = []
+  console.log(useLocation);
+  let savat = [];
   let data = [
     {
       name: "Osh",
@@ -49,7 +49,7 @@ function Taomlar() {
   ];
 
   const [dataBase, setDataBase] = useState([...data]);
-  
+
   function decriment(index) {
     let currentData = [...dataBase];
     if (currentData[index].count > 0) {
@@ -63,16 +63,16 @@ function Taomlar() {
     setDataBase([...currentData]);
   }
   dataBase.forEach((item, index) => {
-    if(item.count > 0){
+    if (item.count > 0) {
       savat.push({
         name: item.name,
-        count: item.count
-      })
+        count: item.count,
+      });
     }
-  })
-  console.log(savat)
+  });
+  console.log(savat);
   useEffect(() => {
-    localStorage.setItem('data', JSON.stringify(savat));
+    localStorage.setItem("data", JSON.stringify(savat));
   }, [savat]);
   return (
     <div>
@@ -91,17 +91,16 @@ function Taomlar() {
                     increment: increment,
                     count: item.count,
                     index: index,
-                    name: item.name
+                    name: item.name,
                   }}
                 />
               </div>
             );
           })}
-        </div>        
+        </div>
       </div>
     </div>
   );
-  
 }
 
 export default Taomlar;

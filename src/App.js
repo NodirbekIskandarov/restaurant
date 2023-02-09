@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { Link, Outlet } from 'react-router-dom';
-import Korzinka from './components/Korzinka.js/Korzinka';
 import './components/Stol/style.css'
 function App() {
   const [items, setItems] = useState([]);
